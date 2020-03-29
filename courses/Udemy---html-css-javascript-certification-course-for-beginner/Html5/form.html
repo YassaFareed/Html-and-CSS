@@ -1,0 +1,87 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>Table Tutorial</title>
+		<meta charset="utf-8">
+	</head>
+
+
+<body>
+
+<form name="employee" action="send.php" method="post">
+ <table width="600" border="1" cellspacing="2" cellpadding="2">
+    <tr>
+      <td>Employment Application</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>First name</td>
+      <td><input type="text" name="fname" maxlength="50"/></td>
+    </tr>
+    <tr>
+      <td>Last name</td>
+      <td><input type="text" name="lname" maxlength="50"/></td>
+    </tr>
+    <tr>
+	  <td>Position</td>
+      <td>
+	       <select name="position">
+                    <option value="AC">Accountant</option>    <!--database can only store 2 characters so value has 2 characters-->
+					<option value="SU">Supervisor </option>
+					<option value="RE">Receptionist</option>
+					<option value="AD">Administrator </option>
+	  </td>
+      
+    </tr>
+    <tr>
+      <td>Experience</td>
+      <td>
+	       <select name="position">
+                    <option value="EN">Entry level</option>    <!--database can only store 2 characters so value has 2 characters-->
+					<option value="SE">Some experienced</option>
+					<option value="VE">Very experienced</option>
+	
+	  </td>
+      
+    </tr>
+    <tr>
+      <td>Job Type</td>
+      <td>
+	  
+	     <input type="checkbox" name="ft" />Full-Time
+		 <input type="checkbox" name="pt" />Part-Time
+		 <input type="checkbox" name="co" />Contract
+		 
+	  </td>
+    </tr>
+    <tr>
+      <td>Employment Statues</td>
+      <td>
+	   <!--User can only select one option from this group-->
+	     <input type="radio" name="estatus" value="unemployed">Unemployed
+		 <input type="radio" name="estatus" value="student">Student
+		 <input type="radio" name="estatus" value="employment">Employed
+		 
+	  </td>
+    </tr>
+    <tr>
+      <td>Additional comment</td>
+      <td>
+	      <textarea name="comments" rows="5" cols="45"></textarea>
+	  </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+	     <input type="submit" name="submit" value="Submit" />
+		 <input type="reset" name="reset" value="Reset" />
+	    
+	  </td>
+    </tr>
+  </table>
+</form>
+
+</body>
+</html>
