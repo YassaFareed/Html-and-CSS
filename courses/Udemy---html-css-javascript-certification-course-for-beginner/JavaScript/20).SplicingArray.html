@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+//The splice() method adds/removes items to/from an array, 
+//and returns the removed item(s). Note: This method changes 
+//the original array.
+var fruits = ["Apple", "Orange", "Pear", "Grape", "Mango"]
+fruits.splice(2,0,"Lemon","Banana");//0 means we donot want to remove any element
+document.getElementById("demo").innerHTML=fruits.join(" * ");
+
+</script>
+
+</body>
+
+</html>

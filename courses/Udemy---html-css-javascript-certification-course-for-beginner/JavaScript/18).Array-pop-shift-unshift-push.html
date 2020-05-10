@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+
+<h3> Popping </h3>
+<p id="pop"></p>
+<h3> Pushing </h3>
+<p id="push"></p>
+<h3> shifting </h3>
+<p id="shift"></p>
+<h3> unshifting</h3>
+<p id="unshift"></p>
+
+<script>
+var fruits = ["Apple", "Orange", "Pear", "Grape", "Mango"]
+
+fruits.pop() // pops the last element (Mango)
+document.getElementById("pop").innerHTML = fruits.join(" * ")
+fruits.push("Cherry") // push cherry at the end
+document.getElementById("push").innerHTML = fruits.join(" * ")
+fruits.shift()//pops the front element(Apple)
+document.getElementById("shift").innerHTML = fruits.join(" * ")
+fruits.unshift("Banana")//push the cherry at the front
+document.getElementById("unshift").innerHTML = fruits.join(" * ")
+
+</script>
+
+</body>
+
+</html>

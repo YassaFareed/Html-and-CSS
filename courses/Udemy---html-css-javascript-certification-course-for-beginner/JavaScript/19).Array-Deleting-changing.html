@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+<p id="demo"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<script>
+var fruits = ["Apple", "Orange", "Pear", "Grape", "Mango"]
+document.getElementById("demo").innerHTML=fruits.toString();
+fruits[2]="kiwi"
+document.getElementById("demo2").innerHTML=fruits.toString();
+delete fruits[1]
+document.getElementById("demo3").innerHTML=fruits.toString();
+
+</script>
+
+</body>
+
+</html>
