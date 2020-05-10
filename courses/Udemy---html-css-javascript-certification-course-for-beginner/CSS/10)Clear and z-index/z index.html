@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<style>
+/* the id with z index greater would appear above the id with z index smaller*/
+#yellow{
+	width: 400px;
+	height: 400px;
+	background-color:yellow;
+	top: 0px;
+	position: absolute;
+	z-index:1;
+}
+
+#blue{
+	width: 600px;
+	height: 50px;
+	background-color:blue;
+	top:0px;
+	position: absolute;
+	z-index:2;
+}
+
+</style>
+</head>
+<body>
+<div id="blue"></div>
+
+<div id="yellow"> </div>
+
+</body>
+
+</html>
