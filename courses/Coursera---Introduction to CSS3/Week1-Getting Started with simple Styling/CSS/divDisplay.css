@@ -1,0 +1,27 @@
+/* span is inline by default and div and p is block by default*/
+/*inline took just enough space*/
+
+span{
+	height:50px;
+	width:75px;
+	background:#00ff00;
+	float:left;
+	/*display: ;try block and inline block;*/
+	/*float:try left right;*/
+}
+
+div{
+	height:100px;
+	width:45%;
+	background:#00ffff;
+	display: inline-block;
+	float: left;
+	/*float;*/
+}
+
+p{
+	background:#ff00ff;
+	width: 200px;
+	height:100px;
+	clear : both;
+}
