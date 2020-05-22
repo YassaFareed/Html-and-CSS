@@ -1,0 +1,36 @@
+img{
+	display:none;	
+}
+h1{
+	color:#F8F8F9;
+	text-transform: uppercase;
+	text-align:center;
+	font-size: 50px;
+	height:50px;
+}
+header{
+	background-color:#BEBEBE;
+}
+h2{
+	clear:both;
+	font-size:40px;
+	color:#2F20AD;
+	text-transform: uppercase;
+	display:block;
+}
+.right{
+	background-color:#817786;
+}
+p{
+	font-size:30px;
+	
+}
+
+a{
+	color:#030000;
+	background-color:#DBD9DD;
+	font-size:20px;
+}
+
+
+
